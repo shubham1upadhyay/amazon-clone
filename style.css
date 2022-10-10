@@ -1,0 +1,429 @@
+/*tags,class,universl*/
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color: lightgray;
+}
+.nav1{
+    width: 1280px;
+    height: 70px;
+    background-color: rgb(28, 24, 24);
+    display: flex;
+    align-items: center;
+}
+.nav1-child-box{
+    width:160px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.nav1-search-box{
+    width:480px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.nav1 p:hover{
+    border: 0.2px yellowgreen solid;
+    cursor: pointer;
+    color: white;
+    max-width: fit-content;
+
+}
+.nav2{
+    width: 1280px;
+    height: 45px;
+    background-color:rgb(50, 50, 53);
+    display: flex;
+}
+.nav2-child-box{
+    width:110px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: white; 
+}
+.nav2-child-box1{
+    width:50px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+.nav2-image{
+    width: 300px;
+    height: 45px;
+    display: flex;
+}
+.nav2 p:hover{
+    border-bottom:2px whitesmoke solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.nav3{
+    width: 1280px;
+    height: 35px;
+    background-color: rgb(246, 234, 234);
+    display: flex;
+}
+.nav3-child-box{
+    width:110px;
+    height: 35px;
+    display: flex;
+    margin-left: 30px;
+    color: rgb(22, 19, 19);
+    font-size: 14px;
+    align-items: center;
+}
+.nav3 p:hover{
+    border-bottom:3px blue solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.nav4{
+    width: 100%;
+    height:auto;
+    border: 0.2px black solid;
+    background-color: aliceblue;
+    display: flex;
+}
+.nav4-child-box{
+    width: 110px;
+    height: 110px;
+    margin-top: 110px;
+    margin-left:10px;
+    display: flex;
+}
+.nav4-child-box1{
+    width: 115px;
+    height: 50px;
+}
+.nav4-child-box2{
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin-left:30px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+.nav4-child-box3{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin-left:30px;
+    margin-top: 40px;
+    padding-left: 20px;
+    display: flex;
+}
+.nav4-child-box4{
+    width: 225px;
+    height: 200px;
+    margin-left:20px;
+    margin-top: 40px;
+    display: flex;
+}
+.nav4-child-box4a{
+    width: 16%;
+    height: 210px;
+    display: flex;
+    margin-left: 10px;
+}
+.nav4-child-box5a{
+    width: 16%;
+    height: 210px;
+    display: flex;
+    margin-left: 10px;
+}
+.nav4-text-box1{
+    width: 100%;
+    height: 30px;
+    margin-left:40px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav4-text-box2{
+    width: 80%;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav4-text-box{
+    width: 100%;
+    height: 50px;
+    margin-left:-10px;
+    align-items: center;
+}
+.nav4-signin-box{
+    width: 100%;
+    height: 180px;
+    margin-left:-10px;
+}
+.box{
+    width: 100%;
+    height: auto;
+    margin-top: 240px;
+    margin-left:-1200px;
+    display: flex;
+}
+.box2{
+    width: 100%;
+    height: 400px;
+    background-color:lightgray;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.box3{
+    width: 100%;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    margin-top: 70px;
+    margin-left:-250px;
+}
+.box4a{
+        width:100%;
+        height: 210px;
+        display: flex;
+        margin-top: 80px;
+        margin-left: -82%;
+}
+.box5a{
+            width:100%;
+            height: 210px;
+            display: flex;
+            margin-top: 30px;
+ }
+.box4{
+            width: 100%;
+            height: 300px;
+            background-color:lightgray;
+            display: flex;
+            margin-top: 30px;
+}
+.box5{
+            width: 100%;
+            height: 300px;
+            background-color:lightgray;
+            display: flex;;
+}
+.box6{
+    width: 100%;
+    height: 250px;
+    background-color:white;
+    display: flex;
+    margin-top: 30px;
+}
+.box6-child{
+    width:100%;
+    height: 200px;
+    border: 0.2px black solid;
+     background-color: white;
+     margin-top: 25px;
+}
+.box6-child-box{
+    width: 400px;
+    height: 150px;
+    margin-top: 25px;
+}
+.box7{
+    width:100%;
+    height:40px;
+    background-color: grey;
+    border: 0.2px white solid;
+}
+.hrline{
+    border: 0.5px azure solid;
+}
+.box8{
+    width:100%;
+    height:450px;
+    background-color: rgb(35, 35, 47);
+    color: white;
+    display: flex;
+}
+.box8-child{
+    width: 260px;
+    height:350px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box9{
+    width:100%;
+    height:200px;
+    background-color: rgb(35, 35, 47);
+    color: white;
+}
+.box9-child{
+    width: 100%;
+    height:100px;
+    border: 0.2px rgb(106, 102, 102) solid;
+    display: flex;
+}
+.box9-child-a{
+    width: 200px;
+    height:100px;
+    margin-left: 400px;
+}
+.box9-child-b{
+    width: 200px;
+    height:100px;
+    margin-left: 40px;
+}
+.box9-child-c{
+    width: 100%;
+    height:50px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.box10{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    display: flex;
+}
+.box10-child{
+    width: 16%;
+    height: 200px;
+    margin-left: 3.5%;
+    margin-top: 40px;
+}
+.box11{
+    width:100%;
+    height:80px;
+    background-color: rgb(26, 24, 24);
+    color: white;
+    display: flex;
+}
+.site{
+    width: 100%;
+    height:50px;
+    display: flex;
+    margin-top: 250px;
+    margin-left: -97%;
+}
+.site-button{
+    width: 25%;
+    height: 50px;
+    display: flex;
+
+}
+
+.child-box{
+    width: 250px;
+    height:100px;
+display: flex;
+margin-top: 12px;
+margin-left: -10px;
+}
+
+
+
+.box2 button:hover{
+    width: fit-content;
+    border: 1px blue solid;
+cursor: pointer;
+}
+.box2 img:hover{
+ cursor: pointer;
+    }
+.nav4-child-box img:hover{
+    border: 0.2px rgb(33, 175, 232) solid;
+    cursor: pointer;
+    max-width: min-content;
+}
+.nav4 button:hover{
+    border: 0.2px rgb(33, 175, 232) solid;
+    cursor: pointer;
+    
+}
+.box2 button:hover{
+    cursor: pointer;
+    border-bottom:2px black solid;
+    width: fit-content;
+}
+.box11 p:hover{
+    border:3px white solid;
+    cursor: pointer;
+    min-width: fit-content;
+}
+.box10 p:hover{
+    border-bottom:3px white solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.box10 h4:hover{
+    border-bottom:3px white solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.box9 p:hover{
+    border-bottom:3px white solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.box9 img:hover{
+        border: 0.2px yellowgreen solid;
+        cursor: pointer;
+        color: white;
+        max-width: fit-content;
+}
+.box8 p:hover{
+    border-bottom:3px white solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.box7 button:hover{
+    border: 0.2px yellowgreen solid;
+    cursor: pointer;
+    color: white;
+}
+.box6 p:hover{
+    border-bottom:3px black solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
+.box6 button:hover{
+    border: 2px blue solid;
+    cursor: pointer;
+}
+.box4 img:hover{
+    border: 2px yellowgreen solid;
+    cursor: pointer;
+}
+.box4 button:hover{
+    border: 2px yellowgreen solid;
+    cursor: pointer;
+    color: white;
+}
+.box2 img:hover{
+    border: 2px yellowgreen solid;
+    cursor: pointer;
+}
+.site button:hover{
+    border-bottom:3px black solid;
+    cursor: pointer;
+}
+.box5 img:hover{
+    border: 2px yellowgreen solid;
+    cursor: pointer;
+}
+.box p:hover{
+    border-bottom:3px black solid;
+    cursor: pointer;
+    max-width: fit-content;
+}
